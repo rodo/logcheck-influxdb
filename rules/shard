@@ -1,0 +1,4 @@
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ influxd\[[0-9]+\]: \[shard\] [/0-9]{10} [:0-9]{8} [/\w]+ opened in [.0-9]+$
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ influxd\[[0-9]+\]: \[shard\] [/0-9]{10} [:0-9]{8} [/._[:alnum:]-]+ database index loaded in [\.0-9]+[mµs]+$
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ influxd\[[0-9]+\]: \[shard-precreation\] [/0-9]{10} [:0-9]{8} Precreation service terminating$
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ influxd\[[0-9]+\]: \[shard-precreation\] [/0-9]{10} [:0-9]{8} Starting precreation service with check interval of [ms0-9]+, advance period of [ms0-9]+$

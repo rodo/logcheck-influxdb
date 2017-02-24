@@ -1,0 +1,5 @@
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ influxd\[[0-9]+\]: \[retention\] [/0-9]{10} [:0-9]{8} retention policy shard deletion check commencing$
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ influxd\[[0-9]+\]: \[retention\] [/0-9]{10} [:0-9]{8} deleted shard group [0-9]+ from database _internal, retention policy monitor$
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ influxd\[[0-9]+\]: \[retention\] [/0-9]{10} [:0-9]{8} shard ID [0-9]+ from database _internal, retention policy monitor, deleted$
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ influxd\[[0-9]+\]: \[retention\] [/0-9]{10} [:0-9]{8} Starting retention policy enforcement service with check interval of [ms0-9]+$
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ influxd\[[0-9]+\]: \[retention\] [/0-9]{10} [:0-9]{8} retention policy enforcement terminating$

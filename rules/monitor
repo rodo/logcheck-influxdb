@@ -1,0 +1,8 @@
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ influxd\[[0-9]+\]: \[monitor\] [/0-9]{10} [:0-9]{8} Starting monitor system$
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ influxd\[[0-9]+\]: \[monitor\] [/0-9]{10} [:0-9]{8} 'build' registered for diagnostics monitoring$
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ influxd\[[0-9]+\]: \[monitor\] [/0-9]{10} [:0-9]{8} 'runtime' registered for diagnostics monitoring$
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ influxd\[[0-9]+\]: \[monitor\] [/0-9]{10} [:0-9]{8} 'network' registered for diagnostics monitoring$
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ influxd\[[0-9]+\]: \[monitor\] [/0-9]{10} [:0-9]{8} 'system' registered for diagnostics monitoring$
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ influxd\[[0-9]+\]: \[monitor\] [/0-9]{10} [:0-9]{8} Storing statistics in database '_internal' retention policy 'monitor', at interval [0-9]+[ms]$
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ influxd\[[0-9]+\]: \[monitor\] [/0-9]{10} [:0-9]{8} shutting down monitor system$
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ influxd\[[0-9]+\]: \[monitor\] [/0-9]{10} [:0-9]{8} terminating storage of statistics$

@@ -1,0 +1,56 @@
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ influxd\[[0-9]+\]: \[admin\] [/0-9]{10} [:0-9]{8} Listening on HTTP: .*[0-9]+$
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ influxd\[[0-9]+\]: \[admin\] [/0-9]{10} [:0-9]{8} Starting admin service$
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ influxd\[[0-9]+\]: \[continuous_querier\] [/0-9]{10} [:0-9]{8} Starting continuous query service$
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ influxd\[[0-9]+\]: \[continuous_querier\] [/0-9]{10} [:0-9]{8} continuous query service terminating$
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ influxd\[[0-9]+\]: \[cacheloader\] [/0-9]{10} [:0-9]{8} reading file [/._[:alnum:]-]+, size [0-9]+$
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ influxd\[[0-9]+\]: \[filestore\] [/0-9]{10} [:0-9]{8} [/._[:alnum:]-]+ \(#[0-9]+\) opened in [\.0-9]+[mµs]+$
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ influxd\[[0-9]+\]: \[httpd\] [.0-9]+ - \w+ .*$
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ influxd\[[0-9]+\]: \[httpd\] [/0-9]{10} [:0-9]{8} Starting HTTP service$
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ influxd\[[0-9]+\]: \[httpd\] [/0-9]{10} [:0-9]{8} Authentication enabled: false$
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ influxd\[[0-9]+\]: \[httpd\] [/0-9]{10} [:0-9]{8} Listening on HTTP: .*[0-9]+$
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ influxd\[[0-9]+\]:  8888888           .d888 888                   8888888b.  888888b.$
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ influxd\[[0-9]+\]:    888            d88P"  888                   888  "Y88b 888  "88b$
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ influxd\[[0-9]+\]:    888            888    888                   888    888 888  .88P$
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ influxd\[[0-9]+\]:    888   88888b.  888888 888 888  888 888  888 888    888 8888888K.$
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ influxd\[[0-9]+\]:    888   888 "88b 888    888 888  888  Y8bd8P' 888    888 888  "Y88b$
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ influxd\[[0-9]+\]:    888   888  888 888    888 888  888   X88K   888    888 888    888$
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ influxd\[[0-9]+\]:    888   888  888 888    888 Y88b 888 .d8""8b. 888  .d88P 888   d88P$
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ influxd\[[0-9]+\]:  8888888 888  888 888    888  "Y88888 888  888 8888888P"  8888888P"$
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ influxd\[[0-9]+\]: \[monitor\] [/0-9]{10} [:0-9]{8} Starting monitor system$
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ influxd\[[0-9]+\]: \[monitor\] [/0-9]{10} [:0-9]{8} 'build' registered for diagnostics monitoring$
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ influxd\[[0-9]+\]: \[monitor\] [/0-9]{10} [:0-9]{8} 'runtime' registered for diagnostics monitoring$
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ influxd\[[0-9]+\]: \[monitor\] [/0-9]{10} [:0-9]{8} 'network' registered for diagnostics monitoring$
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ influxd\[[0-9]+\]: \[monitor\] [/0-9]{10} [:0-9]{8} 'system' registered for diagnostics monitoring$
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ influxd\[[0-9]+\]: \[monitor\] [/0-9]{10} [:0-9]{8} Storing statistics in database '_internal' retention policy 'monitor', at interval [0-9]+[ms]$
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ influxd\[[0-9]+\]: \[monitor\] [/0-9]{10} [:0-9]{8} shutting down monitor system$
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ influxd\[[0-9]+\]: \[monitor\] [/0-9]{10} [:0-9]{8} terminating storage of statistics$
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ influxd\[[0-9]+\]: \[retention\] [/0-9]{10} [:0-9]{8} retention policy shard deletion check commencing$
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ influxd\[[0-9]+\]: \[retention\] [/0-9]{10} [:0-9]{8} deleted shard group [0-9]+ from database _internal, retention policy monitor$
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ influxd\[[0-9]+\]: \[retention\] [/0-9]{10} [:0-9]{8} shard ID [0-9]+ from database _internal, retention policy monitor, deleted$
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ influxd\[[0-9]+\]: \[retention\] [/0-9]{10} [:0-9]{8} Starting retention policy enforcement service with check interval of [ms0-9]+$
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ influxd\[[0-9]+\]: \[retention\] [/0-9]{10} [:0-9]{8} retention policy enforcement terminating$
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ influxd\[[0-9]+\]: \[run\] [/0-9]{10} [:0-9]{8} InfluxDB starting, version [.0-9]+, branch unknown, commit unknown$
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ influxd\[[0-9]+\]: \[run\] [/0-9]{10} [:0-9]{8} Go version go[.0-9]+, GOMAXPROCS set to [0-9]+$
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ influxd\[[0-9]+\]: \[run\] [/0-9]{10} [:0-9]{8} Using configuration at: [/._[:alnum:]-]+$
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ influxd\[[0-9]+\]: \[run\] [/0-9]{10} [:0-9]{8} Listening for signals$
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ influxd\[[0-9]+\]: \[run\] [/0-9]{10} [:0-9]{8} Signal received, initializing clean shutdown...$
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ influxd\[[0-9]+\]: \[run\] [/0-9]{10} [:0-9]{8} Waiting for clean shutdown...$
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ influxd\[[0-9]+\]: \[run\] [/0-9]{10} [:0-9]{8} time limit reached, initializing hard shutdown$
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ influxd\[[0-9]+\]: \[shard\] [/0-9]{10} [:0-9]{8} [/\w]+ opened in [.0-9]+$
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ influxd\[[0-9]+\]: \[shard\] [/0-9]{10} [:0-9]{8} [/._[:alnum:]-]+ database index loaded in [\.0-9]+[mµs]+$
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ influxd\[[0-9]+\]: \[shard-precreation\] [/0-9]{10} [:0-9]{8} Precreation service terminating$
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ influxd\[[0-9]+\]: \[shard-precreation\] [/0-9]{10} [:0-9]{8} Starting precreation service with check interval of [ms0-9]+, advance period of [ms0-9]+$
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ influxd\[[0-9]+\]: \[snapshot\] [/0-9]{10} [:0-9]{8} Starting snapshot service$
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ influxd\[[0-9]+\]: \[snapshot\] [/0-9]{10} [:0-9]{8} snapshot listener closed$
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ influxd\[[0-9]+\]: \[store\] [/0-9]{10} [:0-9]{8} Using data dir: [/._[:alnum:]-]+$
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ influxd\[[0-9]+\]: \[store\] [/0-9]{10} [:0-9]{8} [/._[:alnum:]-]+ opened in [\.0-9]+[mµs]+$
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ influxd\[[0-9]+\]: \[subscriber\] [/0-9]{10} [:0-9]{8} opened service$
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ influxd\[[0-9]+\]: \[tsm[0-9]+\] [/0-9]{10} [:0-9]{8} Snapshot for path [/._[:alnum:]-]+ written in [ .0-9]+ms$
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ influxd\[[0-9]+\]: \[tsm[0-9]+\] [/0-9]{10} [:0-9]{8} beginning level [0-9]+ compaction of group [0-9]+, [0-9]+ TSM files$
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ influxd\[[0-9]+\]: \[tsm[0-9]+\] [/0-9]{10} [:0-9]{8} compacting level [0-9]+ group \([0-9]+\).*$
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ influxd\[[0-9]+\]: \[tsm[0-9]+\] [/0-9]{10} [:0-9]{8} compacted level [0-9]+ group \([0-9]+\) into .*$
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ influxd\[[0-9]+\]: \[tsm[0-9]+\] [/0-9]{10} [:0-9]{8} compacted level [0-9]+ [0-9]+ files into [0-9]+ files in [ .0-9]+ms$
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ influxd\[[0-9]+\]: \[tsm[0-9]+\] [/0-9]{10} [:0-9]{8} beginning full compaction of group [0-9]+, [0-9]+ TSM files$
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ influxd\[[0-9]+\]: \[tsm[0-9]+\] [/0-9]{10} [:0-9]{8} compacting full group \([0-9]+\).*$
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ influxd\[[0-9]+\]: \[tsm[0-9]+\] [/0-9]{10} [:0-9]{8} compacted full group \([0-9]+\) into .*$
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ influxd\[[0-9]+\]: \[tsm[0-9]+\] [/0-9]{10} [:0-9]{8} compacted full [0-9]+ files into [0-9]+ files in [ .0-9]+ms$

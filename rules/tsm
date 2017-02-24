@@ -1,0 +1,9 @@
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ influxd\[[0-9]+\]: \[tsm[0-9]+\] [/0-9]{10} [:0-9]{8} Snapshot for path [/._[:alnum:]-]+ written in [ .0-9]+ms$
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ influxd\[[0-9]+\]: \[tsm[0-9]+\] [/0-9]{10} [:0-9]{8} beginning level [0-9]+ compaction of group [0-9]+, [0-9]+ TSM files$
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ influxd\[[0-9]+\]: \[tsm[0-9]+\] [/0-9]{10} [:0-9]{8} compacting level [0-9]+ group \([0-9]+\).*$
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ influxd\[[0-9]+\]: \[tsm[0-9]+\] [/0-9]{10} [:0-9]{8} compacted level [0-9]+ group \([0-9]+\) into .*$
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ influxd\[[0-9]+\]: \[tsm[0-9]+\] [/0-9]{10} [:0-9]{8} compacted level [0-9]+ [0-9]+ files into [0-9]+ files in [ .0-9]+ms$
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ influxd\[[0-9]+\]: \[tsm[0-9]+\] [/0-9]{10} [:0-9]{8} beginning full compaction of group [0-9]+, [0-9]+ TSM files$
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ influxd\[[0-9]+\]: \[tsm[0-9]+\] [/0-9]{10} [:0-9]{8} compacting full group \([0-9]+\).*$
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ influxd\[[0-9]+\]: \[tsm[0-9]+\] [/0-9]{10} [:0-9]{8} compacted full group \([0-9]+\) into .*$
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ influxd\[[0-9]+\]: \[tsm[0-9]+\] [/0-9]{10} [:0-9]{8} compacted full [0-9]+ files into [0-9]+ files in [ .0-9]+ms$
