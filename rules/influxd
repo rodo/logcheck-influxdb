@@ -16,6 +16,7 @@
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ influxd\[[0-9]+\]:    888   888  888 888    888 888  888   X88K   888    888 888    888$
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ influxd\[[0-9]+\]:    888   888  888 888    888 Y88b 888 .d8""8b. 888  .d88P 888   d88P$
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ influxd\[[0-9]+\]:  8888888 888  888 888    888  "Y88888 888  888 8888888P"  8888888P"$
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ influxd\[[0-9]+\]: \[metaclient\] [/0-9]{10} [:0-9]{8} new shard group [0-9]+ successfully precreated for database _internal, retention policy monitor$
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ influxd\[[0-9]+\]: \[monitor\] [/0-9]{10} [:0-9]{8} Starting monitor system$
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ influxd\[[0-9]+\]: \[monitor\] [/0-9]{10} [:0-9]{8} 'build' registered for diagnostics monitoring$
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ influxd\[[0-9]+\]: \[monitor\] [/0-9]{10} [:0-9]{8} 'runtime' registered for diagnostics monitoring$
