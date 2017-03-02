@@ -5,6 +5,7 @@
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ influxd\[[0-9]+\]: \[cacheloader\] [/0-9]{10} [:0-9]{8} reading file [/._[:alnum:]-]+, size [0-9]+$
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ influxd\[[0-9]+\]: \[filestore\] [/0-9]{10} [:0-9]{8} [/._[:alnum:]-]+ \(#[0-9]+\) opened in [\.0-9]+[mµs]+$
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ influxd\[[0-9]+\]: \[httpd\] [.0-9]+ - \w+ .*$
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ influxd\[[0-9]+\]: \[httpd\] [.0-9]+ - - .*$    
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ influxd\[[0-9]+\]: \[httpd\] [/0-9]{10} [:0-9]{8} Starting HTTP service$
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ influxd\[[0-9]+\]: \[httpd\] [/0-9]{10} [:0-9]{8} Authentication enabled: false$
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ influxd\[[0-9]+\]: \[httpd\] [/0-9]{10} [:0-9]{8} Listening on HTTP: .*[0-9]+$
@@ -25,6 +26,7 @@
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ influxd\[[0-9]+\]: \[monitor\] [/0-9]{10} [:0-9]{8} Storing statistics in database '_internal' retention policy 'monitor', at interval [0-9]+[ms]$
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ influxd\[[0-9]+\]: \[monitor\] [/0-9]{10} [:0-9]{8} shutting down monitor system$
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ influxd\[[0-9]+\]: \[monitor\] [/0-9]{10} [:0-9]{8} terminating storage of statistics$
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ influxd\[[0-9]+\]: \[query\] [/0-9]{10} [:0-9]{8} SELECT .*$
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ influxd\[[0-9]+\]: \[retention\] [/0-9]{10} [:0-9]{8} retention policy shard deletion check commencing$
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ influxd\[[0-9]+\]: \[retention\] [/0-9]{10} [:0-9]{8} deleted shard group [0-9]+ from database _internal, retention policy monitor$
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ influxd\[[0-9]+\]: \[retention\] [/0-9]{10} [:0-9]{8} shard ID [0-9]+ from database _internal, retention policy monitor, deleted$

@@ -1,4 +1,4 @@
-influxd: admin cacheloader continuous_querier filestore httpd logo metaclient monitor retention run shard snapshot store subscriber tsm
+influxd: admin cacheloader continuous_querier filestore httpd logo metaclient monitor query retention run shard snapshot store subscriber tsm
 	cat admin > $@
 	cat continuous_querier >> $@
 	cat cacheloader >> $@
@@ -7,6 +7,7 @@ influxd: admin cacheloader continuous_querier filestore httpd logo metaclient mo
 	cat logo >> $@
 	cat metaclient >> $@
 	cat monitor >> $@
+	cat query >> $@
 	cat retention >> $@
 	cat run >> $@
 	cat shard >> $@
