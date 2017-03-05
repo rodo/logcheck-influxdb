@@ -39,21 +39,21 @@
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ influxd\[[0-9]+\]: \[run\] [/0-9]{10} [:0-9]{8} Signal received, initializing clean shutdown...$
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ influxd\[[0-9]+\]: \[run\] [/0-9]{10} [:0-9]{8} Waiting for clean shutdown...$
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ influxd\[[0-9]+\]: \[run\] [/0-9]{10} [:0-9]{8} time limit reached, initializing hard shutdown$
-^\w{3} [ :0-9]{11} [._[:alnum:]-]+ influxd\[[0-9]+\]: \[shard\] [/0-9]{10} [:0-9]{8} [/\w]+ opened in [.0-9]+$
-^\w{3} [ :0-9]{11} [._[:alnum:]-]+ influxd\[[0-9]+\]: \[shard\] [/0-9]{10} [:0-9]{8} [/._[:alnum:]-]+ database index loaded in [\.0-9]+[mµs]+$
-^\w{3} [ :0-9]{11} [._[:alnum:]-]+ influxd\[[0-9]+\]: \[shard-precreation\] [/0-9]{10} [:0-9]{8} Precreation service terminating$
-^\w{3} [ :0-9]{11} [._[:alnum:]-]+ influxd\[[0-9]+\]: \[shard-precreation\] [/0-9]{10} [:0-9]{8} Starting precreation service with check interval of [ms0-9]+, advance period of [ms0-9]+$
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ influxd\[[0-9]+\]: \[I\] [-0-9]{10}T[:0-9]{8}Z [/\w]+ opened in [.0-9]+ service=shard$
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ influxd\[[0-9]+\]: \[I\] [-0-9]{10}T[:0-9]{8}Z [/._[:alnum:]-]+ database index loaded in [\.0-9]+[mµs]+ service=shard$
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ influxd\[[0-9]+\]: \[I\] [-0-9]{10}T[:0-9]{8}Z Precreation service terminating service=shard$
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ influxd\[[0-9]+\]: \[I\] [-0-9]{10}T[:0-9]{8}Z Starting precreation service with check interval of [ms0-9]+, advance period of [ms0-9]+ service=shard$
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ influxd\[[0-9]+\]: \[I\] [-0-9]{10}T[:0-9]{8}Z Starting snapshot service service=snapshot$
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ influxd\[[0-9]+\]: \[snapshot\] [/0-9]{10} [:0-9]{8} snapshot listener closed$
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ influxd\[[0-9]+\]: \[I\] [-0-9]{10}T[:0-9]{8}Z Using data dir: [/._[:alnum:]-]+ service=store$
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ influxd\[[0-9]+\]: \[I\] [-0-9]{10}T[:0-9]{8}Z [/._[:alnum:]-]+ opened in [\.0-9]+[mµs]+ service=store
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ influxd\[[0-9]+\]: \[subscriber\] [/0-9]{10} [:0-9]{8} opened service$
-^\w{3} [ :0-9]{11} [._[:alnum:]-]+ influxd\[[0-9]+\]: \[I\] [-0-9]{10}T[:0-9]{8}Z Snapshot for path [/._[:alnum:]-]+ written in [.0-9]+ms engine=tsm[0-9)+$
-^\w{3} [ :0-9]{11} [._[:alnum:]-]+ influxd\[[0-9]+\]: \[I\] [-0-9]{10}T[:0-9]{8}Z beginning level [0-9]+ compaction of group [0-9]+, [0-9]+ TSM files engine=tsm[0-9)+$
-^\w{3} [ :0-9]{11} [._[:alnum:]-]+ influxd\[[0-9]+\]: \[I\] [-0-9]{10}T[:0-9]{8}Z compacting level [0-9]+ group \([0-9]+\).* engine=tsm[0-9)+$
-^\w{3} [ :0-9]{11} [._[:alnum:]-]+ influxd\[[0-9]+\]: \[I\] [-0-9]{10}T[:0-9]{8}Z compacted level [0-9]+ group \([0-9]+\) into .* engine=tsm[0-9)+$
-^\w{3} [ :0-9]{11} [._[:alnum:]-]+ influxd\[[0-9]+\]: \[I\] [-0-9]{10}T[:0-9]{8}Z compacted level [0-9]+ [0-9]+ files into [0-9]+ files in [.0-9]+ms engine=tsm[0-9)+$
-^\w{3} [ :0-9]{11} [._[:alnum:]-]+ influxd\[[0-9]+\]: \[I\] [-0-9]{10}T[:0-9]{8}Z beginning full compaction of group [0-9]+, [0-9]+ TSM files engine=tsm[0-9)+$
-^\w{3} [ :0-9]{11} [._[:alnum:]-]+ influxd\[[0-9]+\]: \[I\] [-0-9]{10}T[:0-9]{8}Z compacting full group \([0-9]+\).* engine=tsm[0-9)+$
-^\w{3} [ :0-9]{11} [._[:alnum:]-]+ influxd\[[0-9]+\]: \[I\] [-0-9]{10}T[:0-9]{8}Z compacted full group \([0-9]+\) into .* engine=tsm[0-9)+$
-^\w{3} [ :0-9]{11} [._[:alnum:]-]+ influxd\[[0-9]+\]: \[I\] [-0-9]{10}T[:0-9]{8}Z compacted full [0-9]+ files into [0-9]+ files in [ms.0-9]+ engine=tsm[0-9)+$
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ influxd\[[0-9]+\]: \[I\] [-0-9]{10}T[:0-9]{8}Z Snapshot for path [/._[:alnum:]-]+ written in [.0-9]+ms engine=tsm[0-9]+$
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ influxd\[[0-9]+\]: \[I\] [-0-9]{10}T[:0-9]{8}Z beginning level [0-9]+ compaction of group [0-9]+, [0-9]+ TSM files engine=tsm[0-9]+$
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ influxd\[[0-9]+\]: \[I\] [-0-9]{10}T[:0-9]{8}Z compacting level [0-9]+ group \([0-9]+\).* engine=tsm[0-9]+$
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ influxd\[[0-9]+\]: \[I\] [-0-9]{10}T[:0-9]{8}Z compacted level [0-9]+ group \([0-9]+\) into .* engine=tsm[0-9]+$
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ influxd\[[0-9]+\]: \[I\] [-0-9]{10}T[:0-9]{8}Z compacted level [0-9]+ [0-9]+ files into [0-9]+ files in [.0-9]+ms engine=tsm[0-9]+$
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ influxd\[[0-9]+\]: \[I\] [-0-9]{10}T[:0-9]{8}Z beginning full compaction of group [0-9]+, [0-9]+ TSM files engine=tsm[0-9]+$
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ influxd\[[0-9]+\]: \[I\] [-0-9]{10}T[:0-9]{8}Z compacting full group \([0-9]+\).* engine=tsm[0-9]+$
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ influxd\[[0-9]+\]: \[I\] [-0-9]{10}T[:0-9]{8}Z compacted full group \([0-9]+\) into .* engine=tsm[0-9]+$
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ influxd\[[0-9]+\]: \[I\] [-0-9]{10}T[:0-9]{8}Z compacted full [0-9]+ files into [0-9]+ files in [ms.0-9]+ engine=tsm[0-9]+$
