@@ -1,0 +1,2 @@
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ influxd\[[0-9]+\]: \[I\] [-0-9]{10}T[:0-9]{8}Z Using data dir: [/._[:alnum:]-]+ service=store$
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ influxd\[[0-9]+\]: \[I\] [-0-9]{10}T[:0-9]{8}Z [/._[:alnum:]-]+ opened in [\.0-9]+[mµs]+ service=store

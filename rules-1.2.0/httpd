@@ -1,0 +1,5 @@
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ influxd\[[0-9]+\]: \[httpd\] [.0-9]+ - \w+ .*$
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ influxd\[[0-9]+\]: \[httpd\] [.0-9]+ - - .*$    
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ influxd\[[0-9]+\]: \[httpd\] [/0-9]{10} [:0-9]{8} Starting HTTP service$
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ influxd\[[0-9]+\]: \[httpd\] [/0-9]{10} [:0-9]{8} Authentication enabled: false$
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ influxd\[[0-9]+\]: \[httpd\] [/0-9]{10} [:0-9]{8} Listening on HTTP: .*[0-9]+$

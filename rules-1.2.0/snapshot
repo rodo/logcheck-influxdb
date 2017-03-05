@@ -1,0 +1,2 @@
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ influxd\[[0-9]+\]: \[I\] [-0-9]{10}T[:0-9]{8}Z Starting snapshot service service=snapshot$
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ influxd\[[0-9]+\]: \[snapshot\] [/0-9]{10} [:0-9]{8} snapshot listener closed$

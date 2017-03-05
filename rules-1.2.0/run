@@ -1,0 +1,7 @@
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ influxd\[[0-9]+\]: \[run\] [/0-9]{10} [:0-9]{8} InfluxDB starting, version [.0-9]+, branch unknown, commit unknown$
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ influxd\[[0-9]+\]: \[run\] [/0-9]{10} [:0-9]{8} Go version go[.0-9]+, GOMAXPROCS set to [0-9]+$
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ influxd\[[0-9]+\]: \[run\] [/0-9]{10} [:0-9]{8} Using configuration at: [/._[:alnum:]-]+$
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ influxd\[[0-9]+\]: \[run\] [/0-9]{10} [:0-9]{8} Listening for signals$
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ influxd\[[0-9]+\]: \[run\] [/0-9]{10} [:0-9]{8} Signal received, initializing clean shutdown...$
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ influxd\[[0-9]+\]: \[run\] [/0-9]{10} [:0-9]{8} Waiting for clean shutdown...$
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ influxd\[[0-9]+\]: \[run\] [/0-9]{10} [:0-9]{8} time limit reached, initializing hard shutdown$
