@@ -17,8 +17,8 @@
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ influxd\[[0-9]+\]:    888   888  888 888    888 888  888   X88K   888    888 888    888$
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ influxd\[[0-9]+\]:    888   888  888 888    888 Y88b 888 .d8""8b. 888  .d88P 888   d88P$
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ influxd\[[0-9]+\]:  8888888 888  888 888    888  "Y88888 888  888 8888888P"  8888888P"$
-^\w{3} [ :0-9]{11} [._[:alnum:]-]+ influxd\[[0-9]+\]: \[metaclient\] [/0-9]{10} [:0-9]{8} new shard group [0-9]+ successfully precreated for database _internal, retention policy monitor$
-^\w{3} [ :0-9]{11} [._[:alnum:]-]+ influxd\[[0-9]+\]: \[metaclient\] [/0-9]{10} [:0-9]{8} new shard group [0-9]+ successfully precreated for database [._[:alnum:]-]+, retention policy autogen$^\w{3} [ :0-9]{11} [._[:alnum:]-]+ influxd\[[0-9]+\]: \[I\] [-0-9]{10}T[:0-9]{8}Z Starting monitor system service=monitor$
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ influxd\[[0-9]+\]: \[I\] [-0-9]{10}T[:0-9]{8}Z new shard group [0-9]+ successfully precreated for database _internal, retention policy monitor service=metaclient$
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ influxd\[[0-9]+\]: \[I\] [-0-9]{10}T[:0-9]{8}Z new shard group [0-9]+ successfully precreated for database [._[:alnum:]-]+, retention policy autogen service=metaclient$^\w{3} [ :0-9]{11} [._[:alnum:]-]+ influxd\[[0-9]+\]: \[I\] [-0-9]{10}T[:0-9]{8}Z Starting monitor system service=monitor$
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ influxd\[[0-9]+\]: \[I\] [-0-9]{10}T[:0-9]{8}Z 'build' registered for diagnostics monitoring service=monitor$
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ influxd\[[0-9]+\]: \[I\] [-0-9]{10}T[:0-9]{8}Z 'runtime' registered for diagnostics monitoring service=monitor$
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ influxd\[[0-9]+\]: \[I\] [-0-9]{10}T[:0-9]{8}Z 'network' registered for diagnostics monitoring service=monitor$

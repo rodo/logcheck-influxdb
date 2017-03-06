@@ -1,2 +1,2 @@
-^\w{3} [ :0-9]{11} [._[:alnum:]-]+ influxd\[[0-9]+\]: \[metaclient\] [/0-9]{10} [:0-9]{8} new shard group [0-9]+ successfully precreated for database _internal, retention policy monitor$
-^\w{3} [ :0-9]{11} [._[:alnum:]-]+ influxd\[[0-9]+\]: \[metaclient\] [/0-9]{10} [:0-9]{8} new shard group [0-9]+ successfully precreated for database [._[:alnum:]-]+, retention policy autogen$
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ influxd\[[0-9]+\]: \[I\] [-0-9]{10}T[:0-9]{8}Z new shard group [0-9]+ successfully precreated for database _internal, retention policy monitor service=metaclient$
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ influxd\[[0-9]+\]: \[I\] [-0-9]{10}T[:0-9]{8}Z new shard group [0-9]+ successfully precreated for database [._[:alnum:]-]+, retention policy autogen service=metaclient$
