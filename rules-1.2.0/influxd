@@ -49,7 +49,7 @@
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ influxd\[[0-9]+\]: \[I\] [-0-9]{10}T[:0-9]{8}Z Using data dir: [/._[:alnum:]-]+ service=store$
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ influxd\[[0-9]+\]: \[I\] [-0-9]{10}T[:0-9]{8}Z [/._[:alnum:]-]+ opened in [\.0-9]+[mµs]+ service=store
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ influxd\[[0-9]+\]: \[subscriber\] [/0-9]{10} [:0-9]{8} opened service$
-^\w{3} [ :0-9]{11} [._[:alnum:]-]+ influxd\[[0-9]+\]: \[I\] [-0-9]{10}T[:0-9]{8}Z Snapshot for path [/._[:alnum:]-]+ written in [.0-9]+ms engine=tsm[0-9]+$
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ influxd\[[0-9]+\]: \[I\] [-0-9]{10}T[:0-9]{8}Z Snapshot for path [/._[:alnum:]-]+ written in [ms.0-9]+ engine=tsm[0-9]+$
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ influxd\[[0-9]+\]: \[I\] [-0-9]{10}T[:0-9]{8}Z beginning level [0-9]+ compaction of group [0-9]+, [0-9]+ TSM files engine=tsm[0-9]+$
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ influxd\[[0-9]+\]: \[I\] [-0-9]{10}T[:0-9]{8}Z compacting level [0-9]+ group \([0-9]+\).* engine=tsm[0-9]+$
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ influxd\[[0-9]+\]: \[I\] [-0-9]{10}T[:0-9]{8}Z compacted level [0-9]+ group \([0-9]+\) into .* engine=tsm[0-9]+$
